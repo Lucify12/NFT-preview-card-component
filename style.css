@@ -1,0 +1,156 @@
+:root {
+    --textcolor: #FFF;
+    --greytext: #4c617b;
+    --bgcolor: #0d1a2d;
+    --cardcolor: #14273d;
+    --coolblue: #237e8f;
+    --shadow: #0a1729;
+}
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textcolor);
+    background-color: var(--bgcolor);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 17rem;
+    border-radius: 1rem;
+    padding-top: 1.25rem;
+    background-color: var(--cardcolor);
+    box-shadow: 0rem 0.625rem 0.625rem 0.938rem var(--shadow);
+}
+
+.card img {
+    max-width: 15rem;
+    border-radius: .4rem;
+    margin: auto;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: .6rem;
+}
+
+.info h4 {
+    padding: 1.15rem 0rem 1rem 0rem;
+}
+
+.info p {
+    font-size: .82rem;
+    color: var(--greytext);
+}
+
+.footerwrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cardfooter {
+    display: flex;
+}
+
+.cardfooter p {
+    padding: 10px;
+    color: var(--coolblue);
+}
+
+.price {
+    font-size: .88rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.price p {
+    font-size: 12px;
+    color: #00fff8;
+}
+
+.time {
+    font-size: .88rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3.6rem;
+}
+
+.time p {
+    font-size: 12px;
+    color: #8bacd9;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    max-width: 14.8rem;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    color: grey;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 0.813rem;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+
+.footer img {
+    max-width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer span {
+    color: white;
+}
